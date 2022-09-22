@@ -1,0 +1,28 @@
+#content{
+    margin: 0 auto;
+    width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(42, 5, 77);
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    align-items: center;
+}
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: rgb(42, 5, 77);
+    color: white;
+    text-align: center;
+
+}
+#datediv{
+    color: yellow;
+
+}
