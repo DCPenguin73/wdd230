@@ -18,7 +18,10 @@ main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 auto;
     /* width: 70%; */
-    max-width: 767px;
+    /* max-width: 767px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    
     
 }
 
@@ -40,20 +43,9 @@ footer{
     text-align: center;
 }
 
-main section{
-    border: 20px black;
+section{
     background-color: #a7a6a8;
-    /* align-items: center;
-    justify-self: center;
-    align-self: center; */
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     margin: 0.5rem;
-    padding: 0 1rem;
-    /* width: auto; */
-    /* display: block; */
 }
 
 h3{
@@ -69,30 +61,19 @@ p{
 }
 
 .img{
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     justify-self: center;
-    align-self: center;
-    width: 100%;
+    width: 90%;
 }
 .card{
     display: grid;
     grid-template-columns: 1fr;
-    width: 100%;
-}
-
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
+    margin: 3%;
 }
 
 /* Tablet view */
 @media screen and (min-width: 37.5em) {
     main{
-        grid-template-columns: 50%, 50%;
+        grid-template-columns: 1fr, 1fr;
     }
     main section:nth-child(3) {
         grid-column: span 2;
@@ -109,9 +90,6 @@ main{
 @media only screen and (min-width: 60em) {
     main {
         grid-template-columns: 1fr, 1fr, 1fr;
-    }
-    main section{
-        width: 33%;
     }
     main section:nth-child(3){
         grid-column: span 1;
