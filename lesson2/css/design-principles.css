@@ -1,6 +1,5 @@
 #content{
     margin: 0 auto;
-    width: 50%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header{
@@ -11,17 +10,23 @@ header{
     font-size: 24pt;
     text-align: center;
     align-items: center;
+    margin: 0 auto;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    /* width: 70%; */
+    max-width: 767px;
+    
 }
 
 footer{
     background-color: rgb(42, 5, 77);
     color: white;
     text-align: center;
+    margin: 0 auto;
 
 }
 #datediv{
@@ -35,8 +40,8 @@ footer{
     text-align: center;
 }
 
-section{
-    border: 3px;
+main section{
+    border: 20px black;
     background-color: #a7a6a8;
     /* align-items: center;
     justify-self: center;
@@ -45,6 +50,10 @@ section{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    margin: 0.5rem;
+    padding: 0 1rem;
+    /* width: auto; */
+    /* display: block; */
 }
 
 h3{
@@ -66,35 +75,51 @@ p{
     justify-items: center;
     justify-self: center;
     align-self: center;
+    width: 100%;
 }
 .card{
     display: grid;
     grid-template-columns: 1fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    justify-self: center;
-    align-self: center;
+    width: 100%;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
 /* Tablet view */
-@media only screen and (min-width: 37.5em) {
+@media screen and (min-width: 37.5em) {
     main{
-        display: grid;
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: 50%, 50%;
+    }
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
+    header{
+        width: 50%;
+    }
+    footer{
+        width: 50%;
     }
 }
 
 /* Desktop view */
 @media only screen and (min-width: 60em) {
     main {
-        display: grid;
         grid-template-columns: 1fr, 1fr, 1fr;
+    }
+    main section{
+        width: 33%;
+    }
+    main section:nth-child(3){
+        grid-column: span 1;
+    }
+    header{
+        width: 50%;
+    }
+    footer{
+        width: 50%;
     }
 }
