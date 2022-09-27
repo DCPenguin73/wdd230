@@ -47,7 +47,7 @@ footer{
 main section{
     background-color: #a7a6a8;
     margin: 0.5rem;
-    min-width: 1fr;
+    /* min-width: 1fr; */
     width: 100%;
 }
 
