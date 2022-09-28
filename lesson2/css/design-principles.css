@@ -84,7 +84,10 @@ p{
 }
 
 /* Tablet view */
-@media screen and (min-width: 20em) {
+@media screen and (min-width: 800px) {
+    main{
+        display: flex;
+    }
     main section:nth-child(1) {
         flex: 50%;
     }
@@ -96,6 +99,7 @@ p{
     }
     header{
         width: 50%;
+        background-color: orange;
     }
     footer{
         width: 50%;
@@ -103,7 +107,12 @@ p{
 }
 
 /* Desktop view */
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 1200px) {
+    main{
+        display: flex;
+    }
+
+
     main section:nth-child(1) {
         flex: 33%;
     }
@@ -115,8 +124,11 @@ p{
     }
     header{
         width: 50%;
+        background-color: green;
     }
     footer{
         width: 50%;
     }
+    
+    
 }
