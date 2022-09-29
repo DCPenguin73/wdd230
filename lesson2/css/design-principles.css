@@ -19,9 +19,11 @@ main{
     margin: 0 auto;
     /* width: 70%; */
     /* max-width: 767px; */
-    display: flex;
-    flex-wrap: wrap;
-    
+    display: block;
+    /*
+    display: grid;
+    grid-template-columns: 1fr;
+    */
     
     
 }
@@ -47,18 +49,16 @@ footer{
 main section{
     background-color: #a7a6a8;
     margin: 0.5rem;
-    /* min-width: 1fr; */
-    width: 100%;
 }
 
 main section:nth-child(1){
-    flex: 100%;
+    grid-area: 1;
 }
 main section:nth-child(2){
-    flex: 100%;
+    grid-area: 2;
 }
 main section:nth-child(3){
-    flex: 100%;
+    grid-area: 3;
 }
 
 h3{
@@ -86,20 +86,35 @@ p{
 /* Tablet view */
 @media screen and (min-width: 800px) {
     main{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    main section:nth-child(1) {
+
+    main section:nth-child(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    main section:nth-child(2){
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    main section:nth-child(3){
+        grid-column: span 2;
+    }
+    /* main section:nth-child(1) {
         flex: 50%;
     }
     main section:nth-child(2) {
         flex: 50%;
-    }
+    } 
     main section:nth-child(3) {
-        flex: 100%;
-    }
+        column-span: all;
+    } */
     header{
         width: 50%;
-        background-color: orange;
+        
     }
     footer{
         width: 50%;
@@ -109,22 +124,30 @@ p{
 /* Desktop view */
 @media screen and (min-width: 1200px) {
     main{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "1 2 3";
     }
 
 
-    main section:nth-child(1) {
-        flex: 33%;
+    main section:nth-child(1){
+        grid-column: 1;
+        grid-row: 1;
     }
-    main section:nth-child(2) {
-        flex: 33%;
+
+    main section:nth-child(2){
+        grid-column: 2;
+        grid-row: 1;
     }
-    main section:nth-child(3) {
-        flex: 33%;
+
+    main section:nth-child(3){
+        grid-column: 3;
+        grid-row: 1;
     }
     header{
         width: 50%;
-        background-color: green;
+        
     }
     footer{
         width: 50%;
