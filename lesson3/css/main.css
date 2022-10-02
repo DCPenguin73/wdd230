@@ -1,6 +1,6 @@
 #content{
     margin: 0 auto;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Abyssinica SIL', serif;
     text-align: center;
 }
 
@@ -34,27 +34,32 @@ a:link{
     text-decoration: none;
 }
 a:visited{
-    color: #b71c1c;
+    color: white;
     text-decoration: none;
 }
 
 main{
     background-color: rgb(21, 21, 21);
     color: white;
+    text-align: center;
+    
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 16pt;
 }
 
 h1{
     color: #f05545;
+    font-size: 24pt;
 }
 
 h2{
     color: #f05545;
+    font-size: 16pt;
 }
 
 
