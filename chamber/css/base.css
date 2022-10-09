@@ -58,7 +58,6 @@ main{
 }
 main div{
     margin: 0.5rem;
-    border: 3px soild #7F0000;
     padding: 0 1rem;
     background-color: #212121;
 }
@@ -270,7 +269,7 @@ a{
     }
     .spotlight{
         display: grid;
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "s1 s2";
     }
