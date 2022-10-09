@@ -7,7 +7,7 @@ nav {
     position: absolute;
     top: 40px;
     right: 5px;
-	background-color: rgb(222, 14, 14);
+	background-color: rgb(127, 0, 0);
 }
 nav ul{
     list-style-type: none;
@@ -27,6 +27,7 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     border-top: 1px solid rgba(0,0,0,0.5);
+    color: #fff;
 }
 
 nav ul li.active a{
@@ -53,7 +54,13 @@ div{
 }
 
 main{
-    display: grid;
+    display: block;
+}
+main div{
+    margin: 0.5rem;
+    border: 3px soild #7F0000;
+    padding: 0 1rem;
+    background-color: #212121;
 }
 
 .hero{
@@ -71,7 +78,122 @@ main{
 .spotlight{
     grid-area: spot;
 }
+.join{
+    grid-area: join;
+    display: none;
+}
+.f1{
+    grid-area: f1;
+}
+.fl{
+    grid-area: fl;
+}
 
+
+.s3{
+    display: none;
+    grid-area: s3;
+}
+.s1{
+    grid-area: s1;
+}
+.s2{
+    grid-area: s2;
+}
+
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas: 
+    "hl ht hs"
+    "hd hd hd";
+}
+.hl{
+    grid-area: hl;
+    padding: 5px;
+}
+.ht{
+    grid-area: ht;
+}
+.hn{
+    grid-area: hn;
+}
+.social{
+    grid-area: hs;
+    display: flex;
+}
+.date{
+    grid-area: hd;
+    column-span: all;
+    text-align: center;
+    font-size: 16pt;
+}
+h1{
+    font-size:18pt ;
+}
+
+footer{
+    display: block;
+    background-color: #7F0000;
+}
+footer div{
+    background-color: rgba(127,0,0,0.8);
+    margin: 5px;
+}
+
+.foot_img{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    grid-area: img;
+    padding-top: 5%;
+    
+}
+.info{
+    display: block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: info;
+}
+.contact{
+    display: block;
+    text-align: center;
+    grid-area: cont;
+}
+.address{
+    display: block;
+    text-align: center;
+    grid-area: addr;
+}
+h3{
+    text-align: center;
+}
+.flogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.simg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+footer div hr{
+    grid-area: lin;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* Tablet view */
 @media screen and (min-width: 35rem) {
@@ -116,12 +238,64 @@ main{
         grid-column: span 2;
     }
    
+    nav{
+        position: static;
+    }    
+
     header{
-        width: 50%;
-        
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 30% 40% 10%;
+        grid-template-areas: 
+        "hl ht hn hs"
+        "hd hd hd hd";
     }
     footer{
-        width: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "f1"
+        "fl"
+        "info";
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .join{
+        display: none;
+    }
+    .s3{
+        display: none;
+    }
+    .spotlight{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-areas: 
+        "s1 s2";
+    }
+    .info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 5px;
+    }
+    .f1{
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+        grid-template-areas: 
+        "img addr cont"
+    }
+    .foot_img{
+        padding-top: 20%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;
+    }
+    .social{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
     }
 }
 
@@ -141,28 +315,64 @@ main{
         "join news news spot";
     }
 
+    nav{
+        position: static;
+    }    
 
-    main section:nth-child(1){
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    main section:nth-child(2){
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    main section:nth-child(3){
-        grid-column: 3;
-        grid-row: 1;
-    }
     header{
-        width: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 30% 40% 10%;
+        grid-template-areas: 
+        "hl ht hn hs"
+        "hd hd hd hd";
         
     }
     footer{
-        width: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "f1"
+        "fl"
+        "info";
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        
     }
-    
+    .join{
+        display: block;
+    }
+    .s3{
+        display: block;
+    }
+    .spotlight{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "s1"
+        "s2"
+        "s3";
+    }
+
+    .info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 5px;
+    }
+    .f1{
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+        grid-template-areas: 
+        "img addr cont"
+    }
+    .foot_img{
+        padding-top: 12%;
+    }
+    .logo{
+        height: 120px;
+        width: 120px;
+    }
     
 }
