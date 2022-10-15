@@ -3,6 +3,15 @@
 }
 
 
+header p{
+    display: none;
+    grid-area: wel;
+    background-color: #212121;
+    color: #fff;
+    column-span: all;
+}
+
+
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -27,7 +36,7 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #000;
+    display: block;
     border-top: 1px solid rgba(0,0,0,0.5);
     color: #fff;
 }
@@ -37,7 +46,7 @@ nav ul li.active a{
     color: #fff;
 }
 nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgb(0, 0, 0, 0.3);
 }
 
 nav ul{display: none;}
@@ -107,6 +116,7 @@ header{
     display: grid;
     grid-template-columns: 30% 50% 20%;
     grid-template-areas: 
+    "wel wel wel"
     "hl ht hs"
     "hd hd hd";
 }
@@ -198,7 +208,6 @@ a{
 
 /* Tablet view */
 @media screen and (min-width: 35rem) {
-   
     nav button{
         display:none;
     }
@@ -240,7 +249,8 @@ a{
     }
    
     nav{
-        position: static;
+        /* position: static; */
+        position: absolute;
     }    
 
     header{
@@ -248,6 +258,7 @@ a{
         display: grid;
         grid-template-columns: 20% 30% 40% 10%;
         grid-template-areas: 
+        "wel wel wel"
         "hl ht hn hs"
         "hd hd hd hd";
     }
@@ -293,11 +304,11 @@ a{
         height: 120px;
         width: 120px;
     }
-    .social{
+    /* .social{
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
-    }
+    } */
 }
 
 /* Desktop view */
@@ -317,14 +328,16 @@ a{
     }
 
     nav{
-        position: static;
+        /* position: static; */
+        position: absolute;
     }    
 
     header{
         width: 100%;
         display: grid;
         grid-template-columns: 20% 30% 40% 10%;
-        grid-template-areas: 
+        grid-template-areas:
+        "wel wel wel" 
         "hl ht hn hs"
         "hd hd hd hd";
         

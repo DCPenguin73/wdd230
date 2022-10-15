@@ -6,6 +6,12 @@ document.querySelector("header div span").textContent = day;
 document.querySelector("footer div span").textContent = today.getFullYear();
 document.getElementById("lastupdatedate").textContent = document.lastModified;
 
+if (today.getDay() == 1 || today.getDay == 2){
+// if (today.getDay() == 4){
+    const pthing = document.querySelector("header p");
+    pthing.style.display = 'block';
+}
+
 
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
@@ -13,4 +19,4 @@ function toggleMenu(){
 }
 
 const x = document.getElementById('hambugerBtn');
-x.onclick = toggleMenu;
+x.onclick = toggleMenu; 
