@@ -79,20 +79,17 @@ main div{
     grid-area: hero;
     position: relative;
 }
-.title{
-    grid-area: t;
-    text-align: center;
-    color: #f05545;
-}
+
 .village{
     width: 100%;
     height: 100%;
 }
-.h{
+.herot{
     position: absolute;
     top: -1px;
     left: 20px;
     color: #000;
+    text-align: center;
 }
 .herobtn{
     position: absolute;
@@ -301,6 +298,12 @@ footer div hr{
 a{
     text-decoration: none;
     color: #fff;
+}
+
+.title{
+    grid-area: t;
+    text-align: center;
+    color: #f05545;
 }
 
 /* Tablet view */
