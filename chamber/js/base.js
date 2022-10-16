@@ -7,7 +7,7 @@ document.querySelector("footer div span").textContent = today.getFullYear();
 document.getElementById("lastupdatedate").textContent = document.lastModified;
 
 if (today.getDay() == 1 || today.getDay == 2){
-// if (today.getDay() == 4){
+// if (today.getDay() == 6){
     const pthing = document.querySelector("header p");
     pthing.style.display = 'block';
 }
