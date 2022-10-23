@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="images/logo_favicon.png">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
+    <script src="js/windchill.js" defer></script>
     <script src="js/base.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
         <header>
             <p class="mesg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             <a class="hl" id="logo_link" href="index.html" >
-                <img class="logo" src="images/logo.png" alt="Berk's Chamber of Commerce Logo" >
+                <img class="logo" src="images/logo.webP" alt="Berk's Chamber of Commerce Logo" >
             </a>
             <h1 class="ht">Berk's Chamber of Commerce</h1>
             <nav class="hn">
@@ -47,7 +48,12 @@
         <main>
             <div class="hero">
                 <h2 class="herot">Welcome to Berk</h2>
-                <img class="village" src="images/viking_village.jfif" alt="Viking style building">
+                <picture class="village">
+                    <source class="heroimg" srcset="images/wdd230-org-medium.webP" media="(min-width: 560px) and (max-width: 1499px)">
+                    <source class="heroimg" srcset="images/wdd230-org-large.webP" media="(min-width: 1500px)">
+                    <img class="heroimg" src="images/wdd230-org-small.webP" alt="group of people">
+                </picture>
+                <!-- <img class="village" src="images/viking_village.jfif" alt="Viking style building"> -->
                 <p class="herobtn">Join the Chamber</p>
             </div>
             <div class="event">
@@ -57,12 +63,10 @@
             <div class="weather">
                 <h2 class="title">Weather</h2>
                 <img class="w" src="images/partly_cloudy.png" alt="Partly Cloudy">
-                <div class="temp">33°F</div>
+                <div class="temp"><span id="tem">33</span>°F</div>
                 <h3 class="wf">Partly Cloudy</h3>
-                <p class="ws1">Wind Speed:</p>
-                <p class="ws2">3 m/h</p>
-                <p class="wc1">Wind Chill:</p>
-                <p class="wc2">-2°F</p>
+                <p class="ws1">Wind Speed: <span class="ws2" id = "windspeed">5</span>mph</p>
+                <p class="wc1">Wind Chill: <span class="wc2" id = "windchill"></span></p>
 
             </div>
             <div class="news">
@@ -104,7 +108,7 @@
 
         <footer>
             <div class="f1">
-                <div class="foot_img"><img class="flogo" src="images/logo.png" alt="Berk's Chamber of Commerce Logo" ></div>
+                <div class="foot_img"><img class="flogo" src="images/logo.webP" alt="Berk's Chamber of Commerce Logo" ></div>
             
                 <div class="address">
                     <h3>Berk Chamber of Commerce</h3>
