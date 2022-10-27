@@ -15,12 +15,12 @@ picture{
 }
 
 img[data-src] {
+    filter: hue-rotate(80deg);
+    filter: blur(0.3em);
     
-    filter: blur(0em);
-    transition: filter 2s;
 }   
   
 img {
-    filter: blur(0.7em); 
-    filter: hue-rotate(180deg);
+    filter: blur(0em); 
+    transition: filter 2s;
 }
