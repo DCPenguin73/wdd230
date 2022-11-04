@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berk's Chamber of Commerce - Discover</title>
-    <meta name="description" content="Berk's Chamber of Commerce Discover Page">
+    <title>Berk's Chamber of Commerce - Join</title>
+    <meta name="description" content="Berk's Chamber of Commerce Join Page">
     <link rel="shortcut icon" href="images/logo_favicon.png">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
-    <script src="js/windchill.js" defer></script>
+    <script src="js/join.js" defer></script>
     <script src="js/base.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,15 +46,69 @@
             </div>
         </header>
 
-        <main>
-            <form action="thankyou.html" method="GET">
-                <label>
-                First Name: <input type="text" name="firstname" placeholder="First Name">
-                </label>
-                <label for="lastname">LastName</label>
-                <input id="lastname" type="text" name="lastname" placeholder="Last Name">
-                <input type="submit" value="Sign Me up!">
-            </form>
+        <main class="joinmain">
+            <section>
+                <div class="myjoin">
+                    <form action="thankyou.html" method="GET">
+                        <label class="myinput">
+                            First Name* <input type="text" name="fname" placeholder="First Name" required>
+                        </label>
+                        
+                        <label class="myinput">
+                            Last Name*<input type="text" name="lname" placeholder="Last Name" required>
+                        </label>
+                        <label class="myinput">
+                            Title <input type="text" name="title" pattern="[A-Za-z -]{7,}" placeholder="Title">
+                        </label>
+                        <label class="myinput">
+                            Email* <input type="email" name="email" required placeholder="Email">
+                        </label>
+                        <label class="myinput">
+                            Cell Phone* <input type="tel" name="cellphone" required placeholder="Cell Phone">
+                        </label>
+                        <label class="myinput">
+                            Business Name* <input type="text" name="bizname" required placeholder="Business Name">
+                        </label>
+                        <h3 class="redtext">Membership Level</h3>
+                        <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+                        <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+                        <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+                        <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
+                        <label class="myinput">Business Description<textarea name="description" cols="30" rows="5"></textarea></label>
+                        <label><input type="hidden" name="currentdate" value=""></label>
+                        <input type="submit" value="Join the Chamber!" class="mysubmit">
+                    </form>
+                </div>
+                <div class="member">
+                    <h2 class="redtext">Membership Levels Benefits</h2>
+                    <h3>NP Membership</h3>
+                    <ul>
+                        <li>For non profit organizations and there is no fee</li>
+                    </ul>
+                    <h3>Bronze Membership</h3>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/month</li>
+                    </ul>
+                    <h3>Silver Membership</h3>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/month</li>
+                    </ul>
+                    <h3>Gold Membership</h3>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/month</li>
+                    </ul>
+                </div>
+            </section>
         </main>
 
         <footer>

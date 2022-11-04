@@ -321,6 +321,53 @@ nav ul.open{display: block;}
 #hambugerBtn.open span:nth-child(2) {display: block;}
 #hambugerBtn.open span:nth-child(1) {display: none;}
 
+label.myinput{
+    display: block;
+    padding-top: 1rem;
+}
+
+label.myinput input, label textarea{
+    display: block;
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 90%;
+    max-width: 90%;
+}
+
+label.myradio{
+    display: block;
+}
+
+label.myradio input{
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+.mysubmit{
+    background-color: #7F0000;
+    color: #fff;
+    margin: 1rem 0 1rem 0;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.myjoin{
+    max-width: 90%;
+    margin: 3% 2% 3% 2%;
+    grid-area: j1;
+}
+.member{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    grid-area: j2;
+}
+.redtext{
+    color: #f05545;
+}
+
+label.myinput input :required{
+    border-color: #7F0000;
+}
 
 /* Tablet view */
 @media screen and (min-width: 35rem) {
@@ -413,7 +460,7 @@ nav ul.open{display: block;}
         display: grid;
         grid-template-columns: 20% 50% 30%;
         grid-template-areas: 
-        "img addr cont"
+        "img addr cont";
     }
     .foot_img{
         padding-top: 20%;
@@ -421,6 +468,16 @@ nav ul.open{display: block;}
     .logo{
         height: 120px;
         width: 120px;
+    }
+
+    .joinmain{
+        display: block;
+    }
+    .joinmain section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "j1 j2";
     }
     /* .village{
         width:720px;
