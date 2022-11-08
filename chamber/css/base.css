@@ -369,6 +369,12 @@ label.myinput input :required{
     border-color: #7F0000;
 }
 
+.thank{
+    text-align: center;
+    column-span: all;
+    grid-column: 1/5
+}
+
 /* Tablet view */
 @media screen and (min-width: 35rem) {
     nav button{
