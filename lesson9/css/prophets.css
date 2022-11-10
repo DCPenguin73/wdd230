@@ -1,0 +1,13 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards section:hover{
+    box-shadow:  10px 10px 5px black;
+}
+
+.cards section{
+    margin: 10px;
+    border: 3px dotted black;
+}
