@@ -1,0 +1,112 @@
+{
+    "businesses" : [
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz1",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "24 fury roar",
+            "citystatezip" : "berk, berk 001 ",
+            "websiteURL" : "sadfasdf.co",
+            "name" : "biz2",
+            "phone": "12341234214"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz3",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz4",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz5",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz6",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz7",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz8",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz9",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz10",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz11",
+            "phone": "3456346536"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "1234 way",
+            "citystatezip" : " berk, berk 001 ",
+            "websiteURL" : "ewrgertdg.com",
+            "name" : "biz12",
+            "phone": "3456346536"
+
+        }
+    ]
+}

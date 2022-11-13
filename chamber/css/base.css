@@ -375,6 +375,41 @@ label.myinput input :required{
     grid-column: 1/5
 }
 
+/* directory things */
+.direcmain{
+    display: block;
+    text-align: center;
+}
+#cardview{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* directory things */
+#listview{
+    display: none;
+    margin-bottom: 10px;
+}
+#listview section:nth-child(even){
+    background-color: #7F0000;
+    color: rgb(255, 255, 255);
+}
+#listview section:nth-child(even) div{
+    background-color: #7F0000;
+    color: rgb(255, 255, 255);
+}
+#listview section:nth-child(odd){
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+}
+#listview section:nth-child(odd) div{
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+}
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* Tablet view */
 @media screen and (min-width: 35rem) {
     nav button{
@@ -494,6 +529,17 @@ label.myinput input :required{
         grid-template-columns: 1fr;
         margin: auto;
     } */
+    /* directory things */
+    #cardview{
+        display: none;
+        grid-template-columns: 1fr 1fr;
+    }
+    #listview{
+        display: block;
+    } 
+    #listview section{
+        display: flex;
+    } 
 }
 
 /* Desktop view */
@@ -589,5 +635,13 @@ label.myinput input :required{
     }
     .weather{
         padding: 0px;
+    }
+    /* directory things */
+    #cardview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    #listview{
+        display: none;
     }
 }
