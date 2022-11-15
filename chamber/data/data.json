@@ -1,72 +1,72 @@
 {
     "businesses" : [
         {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz1",
-            "phone": "3456346536"
+            "imagesURL" : "images/gobber_forge.png",
+            "street" : " 128 Stroker Way",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "gobberforge.com",
+            "name" : "Gobber's Forge",
+            "phone": "345-634-6536"
+
+        },
+        {
+            "imagesURL" : "images/hofferson_mills.png",
+            "street" : "24 Fury Road",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "hoffersonmills.com",
+            "name" : "Hofferson Mills",
+            "phone": "345-413-4214"
+
+        },
+        {
+            "imagesURL" : "images/stately_saddles.png",
+            "street" : "234 Market Court",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "statelysaddles.com",
+            "name" : "Stately Saddles",
+            "phone": "345-333-9436"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "24 fury roar",
-            "citystatezip" : "berk, berk 001 ",
-            "websiteURL" : "sadfasdf.co",
-            "name" : "biz2",
-            "phone": "12341234214"
+            "street" : "847 Cliff Lane",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "BucketFish.com",
+            "name" : "Bucket of Fish",
+            "phone": "345-835-9901"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "401 Market Court",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "Pemporium.com",
+            "name" : "Pranks Emporium",
+            "phone": "345-534-7290"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "281 Stroker Way",
+            "citystatezip" : "Berk, North Empire 00001 ",
+            "websiteURL" : "bits&bolts.com",
+            "name" : "Bits & Bolts Hardware",
+            "phone": "345-498-6563"
+
+        },
+        {
+            "imagesURL" : "images/your-logo-here.png",
+            "street" : "582 Marsh Road",
+            "citystatezip" : "Bog, North Empire 00002 ",
+            "websiteURL" : "Bogsmith.com",
+            "name" : "Bertha Locksmith",
+            "phone": "365-472-5386"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
             "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz3",
-            "phone": "3456346536"
-
-        },
-        {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz4",
-            "phone": "3456346536"
-
-        },
-        {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz5",
-            "phone": "3456346536"
-
-        },
-        {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz6",
-            "phone": "3456346536"
-
-        },
-        {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz7",
-            "phone": "3456346536"
-
-        },
-        {
-            "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
+            "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "ewrgertdg.com",
             "name" : "biz8",
             "phone": "3456346536"
@@ -75,7 +75,7 @@
         {
             "imagesURL" : "images/your-logo-here.png",
             "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
+            "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "ewrgertdg.com",
             "name" : "biz9",
             "phone": "3456346536"
@@ -84,7 +84,7 @@
         {
             "imagesURL" : "images/your-logo-here.png",
             "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
+            "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "ewrgertdg.com",
             "name" : "biz10",
             "phone": "3456346536"
@@ -93,7 +93,7 @@
         {
             "imagesURL" : "images/your-logo-here.png",
             "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
+            "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "ewrgertdg.com",
             "name" : "biz11",
             "phone": "3456346536"
@@ -102,7 +102,7 @@
         {
             "imagesURL" : "images/your-logo-here.png",
             "street" : "1234 way",
-            "citystatezip" : " berk, berk 001 ",
+            "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "ewrgertdg.com",
             "name" : "biz12",
             "phone": "3456346536"
