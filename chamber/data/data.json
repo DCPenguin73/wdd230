@@ -28,7 +28,7 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/bucket.jpg",
             "street" : "847 Cliff Lane",
             "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "BucketFish.com",
@@ -65,47 +65,47 @@
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
+            "street" : "103 Fury Road",
             "citystatezip" : "Berk, North Empire 00001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz8",
-            "phone": "3456346536"
+            "websiteURL" : "shieldmaidennanny.com",
+            "name" : "Shield Maiden Nanny",
+            "phone": "365-980-3478"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
+            "street" : "354 Raven Point",
             "citystatezip" : "Berk, North Empire 00001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz9",
-            "phone": "3456346536"
+            "websiteURL" : "FuryRockets.com",
+            "name" : "Night Fury Aeronuatics",
+            "phone": "345-734-8924"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : "Berk, North Empire 00001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz10",
-            "phone": "3456346536"
+            "street" : "847 Glacer Court",
+            "citystatezip" : "North Nest, North Empire 00003 ",
+            "websiteURL" : "dragonsancuary.com",
+            "name" : "Dragon Sancuary",
+            "phone": "366-464-0053"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
-            "citystatezip" : "Berk, North Empire 00001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz11",
-            "phone": "3456346536"
+            "street" : "1234 Looting Way",
+            "citystatezip" : "Beserk, North Empire 00004 ",
+            "websiteURL" : "Crazyweapons.com",
+            "name" : "Deranged Armory",
+            "phone": "356-634-6536"
 
         },
         {
             "imagesURL" : "images/your-logo-here.png",
-            "street" : "1234 way",
+            "street" : "234 Fury Road",
             "citystatezip" : "Berk, North Empire 00001 ",
-            "websiteURL" : "ewrgertdg.com",
-            "name" : "biz12",
-            "phone": "3456346536"
+            "websiteURL" : "BerkHospital.com",
+            "name" : "Gothi Memorial Hospital",
+            "phone": "345-274-4581"
 
         }
     ]
