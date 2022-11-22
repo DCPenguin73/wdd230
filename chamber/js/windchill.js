@@ -26,8 +26,8 @@ function showWeather(obj){
     weathericon.setAttribute("alt", obj.weather[0].description);
 }
 
-const LAT = "64.8378";
-const LON = "-147.7164";
+const LAT = "78.053";
+const LON = "17.710";
 const APIKEY = "1799c93bd8ed89a254a602f24cfc8859";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&units=imperial&appid=${APIKEY}`;
 
