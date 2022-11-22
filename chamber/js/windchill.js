@@ -18,7 +18,7 @@ function showWeather(obj){
     }
 
     // populate dom stuff
-    tempobj.textContent = temp;
+    tempobj.textContent = Math.round(temp);
     windspeedobj.textContent = windspeed;
     windchillobj.innerHTML = windchillmsg;
     weatherdesc = obj.weather[0].main;
