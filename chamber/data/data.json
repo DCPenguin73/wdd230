@@ -37,7 +37,7 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/loki.jpeg",
             "street" : "401 Market Court",
             "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "Pemporium.com",
@@ -46,7 +46,7 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/bits.png",
             "street" : "281 Stroker Way",
             "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "bits&bolts.com",
@@ -55,7 +55,7 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/lock.png",
             "street" : "582 Marsh Road",
             "citystatezip" : "Bog, North Empire 00002 ",
             "websiteURL" : "Bogsmith.com",
@@ -73,7 +73,7 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/fury.png",
             "street" : "354 Raven Point",
             "citystatezip" : "Berk, North Empire 00001 ",
             "websiteURL" : "FuryRockets.com",
@@ -82,16 +82,16 @@
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/dragon.png",
             "street" : "847 Glacer Court",
             "citystatezip" : "North Nest, North Empire 00003 ",
-            "websiteURL" : "dragonsancuary.com",
-            "name" : "Dragon Sancuary",
+            "websiteURL" : "dragonsanctuary.com",
+            "name" : "Dragon Sanctuary",
             "phone": "366-464-0053"
 
         },
         {
-            "imagesURL" : "images/your-logo-here.png",
+            "imagesURL" : "images/sword.png",
             "street" : "1234 Looting Way",
             "citystatezip" : "Beserk, North Empire 00004 ",
             "websiteURL" : "Crazyweapons.com",
