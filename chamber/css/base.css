@@ -498,7 +498,17 @@ button {
 /* discover stuff */
 #visit{
     column-span: 1/5;
+    text-align: center;
 }
+.discover{
+    display: block;
+    text-align: center;
+}
+#discovercard{
+    display: grid;
+}
+
+
 
 /* Tablet view */
 @media screen and (min-width: 35rem) {
@@ -637,6 +647,9 @@ button {
     }
     .board h3{
         column-span: 1/4;
+    }
+    .discover img:hover{
+        box-shadow: 10px 10px #7F0000;
     }
 }
 
