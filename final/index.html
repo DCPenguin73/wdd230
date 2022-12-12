@@ -10,6 +10,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script src="js/main.js" defer></script>
+    <script src="js/windchill.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
@@ -41,7 +42,29 @@
         </header>
 
         <main id="home">
-
+            <div id="hsale">
+                <h2> Winter Sale</h2>
+                <p>Till end of year</p>
+                <p>15% OFF*</p>
+            </div>
+            <div id="hevent">
+                <h2>Book Signing</h2>
+                <p>I will have a stand at Salt Lake City Comic Con. More details to come.</p>
+            </div>
+            <div id="weather">
+                <h2 class="title">Weather</h2>
+                <img class="w" src="images/partly_cloudy.png" alt="Partly Cloudy">
+                <div class="temp"><span id="tem"></span>°F</div>
+                <h3 class="wf"></h3>
+                <p class="ws1">Wind Speed: <span class="ws2" id = "windspeed"></span>mph</p>
+                <p class="wc1">Wind Chill: <span class="wc2" id = "windchill"></span></p>
+            </div>
+            <div id="hbuy">
+                <h2>Buy Books Now</h2>
+                <a href="order.html">
+                    <h3 id="horder">Order</h3>
+                </a>
+            </div>
         </main>
 
         <footer>

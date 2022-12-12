@@ -40,8 +40,50 @@
             </nav>
         </header>
 
-        <main id="home">
-
+        <main id="order">
+            <div id="form">
+                <form action="thanks.html" method="GET">
+                    <h2 class="formtitle">Books</h2>
+                    <div id="books">
+                        <label class="mycheck"><input type="checkbox" name="book" value="nonprofit">Non-Profit</label>
+                        <label class="mycheck"><input type="checkbox" name="book" value="bronze">Bronze</label>
+                        <label class="mycheck"><input type="checkbox" name="book" value="silver">Silver</label>
+                        <label class="mycheck"><input type="checkbox" name="book" value="gold">Gold</label>
+                    </div>
+                     
+                    <div id="back">
+                        <label class="myradio"><input type="radio" name="level" value="Leatherback">Leatherback</label>
+                        <label class="myradio"><input type="radio" name="level" value="Haedback">Hardback</label>
+                        <label class="myradio"><input type="radio" name="level" value="Paperback">Paperback</label>
+                        <label class="myradio"><input type="radio" name="level" value="Electronic">Electronic</label>
+                    </div>
+                    
+                    <div id="information">
+                        <section>
+                            <label class="myinput">
+                                First Name* <input type="text" name="fname" placeholder="First Name" required>
+                            </label>
+                        </section>
+                        <section>
+                            <label class="myinput">
+                                Last Name* <input class="lname" type="text" name="lname" placeholder="Last Name" required>
+                            </label>
+                        </section>
+                        <section>
+                            <label class="myinput">
+                                Email* <input class="email" type="email" name="email" required placeholder="Email">
+                            </label>
+                        </section>
+                        <section>
+                            <label class="myinput">
+                                Cell Phone* <input type="tel" name="cellphone" required placeholder="Cell Phone">
+                            </label>
+                        </section>
+                        <label><input type="hidden" name="currentdate" value=""></label>
+                    </div>
+                    <input type="submit" value="Buy Books" class="mysubmit">
+                </form>
+            </div>
         </main>
 
         <footer>
