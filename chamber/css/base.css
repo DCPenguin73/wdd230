@@ -274,7 +274,7 @@ a{
     color: #f05545;
 }
 
-nav {
+nav {  
 	margin: 0 auto;
 	max-width: 760px;
     position: absolute;
@@ -283,6 +283,7 @@ nav {
 	background-color: rgb(127, 0, 0);
     z-index: 1;
 }
+
 nav ul{
     list-style-type: none;
     padding: 0;
