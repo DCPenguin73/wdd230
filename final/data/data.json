@@ -1,0 +1,44 @@
+{
+    "books" : [
+        {
+            "id": "book1",
+            "imagesURL" : "images/",
+            "title" : "Letters from the Guard",
+            "genre" : "Horror",
+            "age" : "15+",
+            "published" : "2020",
+            "description": "A guard investigates a containment breach at a SPC facility."
+
+        },
+        {
+            "id": "book2",
+            "imagesURL" : "images/",
+            "title" : "Tower of Cards",
+            "genre" : "Fantasy",
+            "age" : "12+",
+            "published" : "2019",
+            "description": "Magic comes from a deck of cards scattered throughout the world. A quest of knowledge, survival and revenge intersect."
+
+        },
+        {
+            "id": "book3",
+            "imagesURL" : "images/",
+            "title" : "Flooded Vision",
+            "genre" : "Science Fiction",
+            "age" : "14+",
+            "published" : "2022",
+            "description": "A flooded cyber-punk world where land and technology are the currency."
+
+        },
+        {
+            "id": "book4",
+            "imagesURL" : "images/",
+            "title" : "The Brother's Power",
+            "genre" : "Short Fiction",
+            "age" : "12+",
+            "published" : "2017",
+            "description": "Brothers compaire the powers they have gained."
+
+        }
+    ]
+}

@@ -54,6 +54,10 @@ fetch(requestURL)
 .then((jsonObject) => {
     console.table(jsonObject);
     const bizlist = jsonObject['businesses'];
-    bizlist.forEach(displayCard);
+    bizlist.forEach(displayCard);    
     bizlist.forEach(displayList);
 });
+
+
+
+

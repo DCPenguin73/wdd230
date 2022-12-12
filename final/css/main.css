@@ -128,6 +128,14 @@ nav ul.open{display: block;}
 .lname{
     margin-left: 2px;
 }
+#books{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+.check{
+    margin-left: 13%;
+}
 /* end order */
 /* thanks */
 #thanks div{
@@ -212,6 +220,7 @@ footer{
     #information section{
         margin-left: 14%;
     }
+   
     
 
 }
@@ -240,6 +249,14 @@ footer{
     }
     #order div{
         margin: 10px 10px;
+    }
+    #books{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+    .check{
+        margin-left: 0px;
     }
 
 }
