@@ -142,6 +142,18 @@ nav ul.open{display: block;}
     border: 3px #ba000d solid;
     margin: 5px 10px;
 }
+/* end thanks */
+/* books */
+#book section{
+    border: 3px #ba000d solid;
+    margin: 10px 10px;
+}
+.mycheck{
+    margin-bottom: 10px;
+}
+#book section h2{
+    color: #080b5d;
+}
 /* end main */
 
 
@@ -219,6 +231,12 @@ footer{
     }
     #information section{
         margin-left: 14%;
+    }
+    /* end order */
+    /* books */
+    #book{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
    
     

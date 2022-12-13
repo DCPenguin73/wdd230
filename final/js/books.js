@@ -18,9 +18,13 @@
     function displayBook(book){
         let main = document.querySelector("main");
         let newsection = document.createElement("section");
+        // <img src="${book.imagesURL}"></img>
         newsection.innerHTML = `<h2>${book.title}</h2>
-                 <h3>Published in: <span id="published-date">${book.published}</span></h3>
-                 <img src="${book.imagesURL}">
+                 
+                 <p>Published in: <span id="published-date">${book.published}</span></p>
+                 <p>Genre: <span id="genre">${book.genre}</span></p>
+                 <p>Recommended age: <span id="age">${book.age}</span></p>
+                 <p>Description: <span id="description">${book.description}</span></p>
                  <input class="mycheck" id="check-${book.id}" type="checkbox" onclick="likeBook(this);"> Like This Book!`;
         main.appendChild(newsection);
     }
