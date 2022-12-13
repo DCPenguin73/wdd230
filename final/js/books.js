@@ -1,27 +1,18 @@
-const requestURL = "./data/data.json";
 
-
-fetch(requestURL)
-.then((response) => {
-    return response.json();
-})
-.then((jsonObject) => {
-    console.table(jsonObject);
-    const book = jsonObject['books'];
-    book.forEach(displayCard);
-//     bizlist.forEach(displayList);
-});
 
    // First check to see if we need to initialize local storage with an empty array
     const LIKES_KEY = "book-likes";
-    let likes_string = localStorage.getItem(LIKES_KEY);
-    if (likes_string==null){
-        likes_string="[]";
-        localStorage.setItem(LIKES_KEY, likes_string);
+
+    function initBookLikes(){
+        let likes_string = localStorage.getItem(LIKES_KEY);
+        if (likes_string==null){
+            likes_string="[]";
+            localStorage.setItem(LIKES_KEY, likes_string);
+        }
     }
     
     // Turn the string value from local storage into a Java array
-    let likeslist = JSON.parse(likes_string);
+    // let likeslist = JSON.parse(likes_string);
     
     // This displays the book card as before
     function displayBook(book){
@@ -62,7 +53,35 @@ fetch(requestURL)
         obj.checked = true;
     }
     
-    books.forEach(displayBook);
-    likeslist.forEach(displayLike);
+    // books.forEach(displayBook);
+    // likeslist.forEach(displayLike);
     
     
+
+
+
+
+let requestURL = "./data.books.json";
+
+// Call the init function when the page loads
+initBookLikes();
+
+// Fetch the temple data and display the cards,
+// Then display the likes after the cards are built
+fetch(requestURL)
+        .then((response) => {            
+            return response.json();
+        })
+        .then((jsonObject) => {          
+          let books = jsonObject['books'];
+            // Upon page load, display the temples
+            books.forEach(displayBook);
+        })
+        .then(() => {
+            // Turn the string value from local storage into a Java array
+            let likes_string = localStorage.getItem(LIKES_KEY);
+            let likeslist = JSON.parse(likes_string);            
+
+            // Set the likes
+            likeslist.forEach(displayLike);
+        });
