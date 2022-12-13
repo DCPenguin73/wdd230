@@ -61,7 +61,7 @@
 
 
 
-let requestURL = "./data.books.json";
+let requestURL = "/final/data/books.json";
 
 // Call the init function when the page loads
 initBookLikes();
