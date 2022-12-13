@@ -1,0 +1,20 @@
+{
+    "futures" : [
+        {
+            "title" : "Ivan Thorson: The Space Viking",
+            "work" : "83%"
+        },
+        {
+            "title" : "Kingdom of Cards",
+            "work" : "57%"
+        },
+        {
+            "title" : "Sunken Prophesy",
+            "work" : "22%"
+        },
+        {
+            "title" : "Unnamed book",
+            "work" : "5%"
+        }
+    ]
+}

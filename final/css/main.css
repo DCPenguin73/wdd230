@@ -154,6 +154,20 @@ nav ul.open{display: block;}
 #book section h2{
     color: #080b5d;
 }
+/* end books */
+/* future */
+#futurebooks section{
+    border: 3px #ba000d solid;
+    margin: 10px 10px;
+}
+.percent{
+    height: 20px;
+    background-color: #ba000d;
+    border: 3px #29b6f6 solid;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 /* end main */
 
 
@@ -170,6 +184,7 @@ footer{
 }
 .f1{
     margin-top: 5px;
+    
 }
 
 
